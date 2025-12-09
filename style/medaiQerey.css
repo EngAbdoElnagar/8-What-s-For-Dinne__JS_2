@@ -1,0 +1,38 @@
+@media (min-width: 992px) {
+  .text-hghid {
+    display: none;
+  }
+  .layer {
+    .img {
+      img {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+      }
+    }
+  }
+  .layer-2 {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+}
+@media (max-width: 992px) {
+  #navbar-example {
+    .img {
+      width: 3rem !important;
+      height: 3rem !important;
+    }
+  }
+  .row .col-lg-5 .layer .img img {
+    aspect-ratio: 9/16;
+  }
+  .layer {
+    .img {
+      img {
+        max-height: 400px !important;
+        min-height: 400px !important;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+      }
+    }
+  }
+}

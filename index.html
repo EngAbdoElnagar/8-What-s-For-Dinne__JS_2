@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Mate_Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML CSS BOOTSTRAP and JS" />
+    <meta
+      name="description"
+      content="Free Web tutorials for HTML CSS BOOTSTRAP and JS" />
+    <meta name="author" content="AbduAlghany" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/JS.jpg" type="image/x-icon" />
+
+    <!-- fotawsam -->
+    <link rel="stylesheet" href="./style/all.min.css" />
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous" />
+    <!-- Style__Main -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <!-- style__medaiQerery -->
+    <link rel="stylesheet" href="./style/medaiQerey.css" />
+    <title>What's For Dinner</title>
+  </head>
+  <body>
+    <nav
+      id="navbar-example"
+      class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow-lg">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="">
+          <div class="icon">
+            <div
+              class="box-icon shadow-lg me-3 d-flex align-items-center justify-content-center rounded-circle">
+              <i class="fa-solid fa-utensils"></i>
+            </div>
+          </div>
+          <div class="text">
+            <h1 class="nav-h1">What's For Dinner</h1>
+            <p class="nav-p">Your daily meal inspiration</p>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center">
+                <div
+                  class="box-icon d-flex align-items-center justify-content-center rounded-circle">
+                  <i class="fa-solid fa-bookmark"></i>
+                </div>
+                <span class="text-hghid">Saved Recipes</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center">
+                <div
+                  class="box-icon d-flex align-items-center justify-content-center rounded-circle">
+                  <i class="fa-solid fa-clock-rotate-left"></i>
+                </div>
+                <span class="text-hghid">Recent</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center">
+                <div
+                  class="box-icon d-flex align-items-center justify-content-center rounded-circle">
+                  <i class="fa-solid fa-gear"></i>
+                </div>
+                <span class="text-hghid">Settings</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link img d-flex align-items-center">
+                <img
+                  src="./images/avatar-2.jpg"
+                  class="w-25 rounded-circle"
+                  alt="" />
+                <span class="text-hghid">Profile</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <header
+        class="d-flex align-items-center align-content-center overflow-y-auto">
+        <div class="container">
+          <!--  -->
+          <div class="row rounded-4" id="rowAll">
+            <div class="col-lg-5 p-0" id="rowbody">
+              <div class="layer">
+                <div class="img">
+                  <img id="img" src="./images/photo1.jpg" alt="photo1.jpg" />
+                </div>
+                <div
+                  class="reviews bg-body rounded-pill d-flex align-items-center">
+                  <div class="icon">
+                    <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                  </div>
+                  <p class="mb-0 mx-2" id="reang">4.8</p>
+                  <span id="reviews">(234 reviews)</span>
+                </div>
+                <div
+                  class="info d-flex justify-content-evenly bg-body rounded-4">
+                  <div class="prep_time text-center">
+                    <i class="fa-solid fa-clock"></i>
+                    <span>Prep Time</span>
+                    <p id="prepTime">90 min</p>
+                  </div>
+                  <div class="cook_time text-center">
+                    <i class="fa-solid fa-fire-burner"></i>
+                    <span>Cook Time</span>
+                    <p id="cookTime">12 min</p>
+                  </div>
+                  <div class="Servings text-center">
+                    <i class="fa-solid fa-users"></i>
+                    <span>Servings</span>
+                    <p id="servings">2 people</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7 bg-body overflow-y-auto position-relative">
+              <div class="layer layer-2 overflow-y-auto">
+                <div
+                  class="head-title d-flex align-items-center justify-content-between">
+                  <div class="head">
+                    <div class="cantry">
+                      <span id="level" class="cant-1 rounded-5"
+                        >Intermediate</span
+                      >
+                      <span id="cuisine" class="cant-2 rounded-5">Asian</span>
+                    </div>
+                    <div class="title">
+                      <h3 id="title">Pad Thai</h3>
+                      <p id="desc" class="desc">
+                        Popular Thai stir-fried noodles with shrimp and peanuts
+                      </p>
+                    </div>
+                  </div>
+                  <div class="head-icon d-flex">
+                    <div
+                      class="box-icon p-3 me-2 d-flex align-items-center justify-content-center rounded-3">
+                      <i class="fa-solid fa-bookmark"></i>
+                    </div>
+                    <div
+                      class="box-icon d-flex align-items-center justify-content-center rounded-3">
+                      <i class="fa-solid fa-share-nodes"></i>
+                    </div>
+                  </div>
+                </div>
+                <div id="alarm" class="alarm d-flex p-3 rounded-3 d-none">
+                  <div
+                    class="box-icon p-1 d-flex align-items-center justify-content-center rounded-3">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                  </div>
+                  <div class="alarm-info">
+                    <h4>Extended Preparation Time</h4>
+                    <p>
+                      This recipe requires more than 45 minutes to prepare. Plan
+                      accordingly!
+                    </p>
+                  </div>
+                </div>
+                <!-- nav-tabs -->
+                <ul class="nav nav-tabs my-4" id="myTab" role="tablist">
+                  <!-- 1 Ingredients  -->
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link active"
+                      id="Ingredients-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#Ingredients-tab-pane"
+                      type="button"
+                      role="tab"
+                      aria-controls="Ingredients-tab-pane"
+                      aria-selected="true">
+                      <i class="fa-solid fa-list-check"></i>
+                      Ingredients
+                    </button>
+                  </li>
+                  <!-- 2 Instructions -->
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="Instructions-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#Instructions-tab-pane"
+                      type="button"
+                      role="tab"
+                      aria-controls="Instructions-tab-pane"
+                      aria-selected="false">
+                      <i class="fa-solid fa-book-open"></i>
+                      Instructions
+                    </button>
+                  </li>
+                  <!-- 3 Nutrition -->
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="Nutrition-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#Nutrition-tab-pane"
+                      type="button"
+                      role="tab"
+                      aria-controls="Nutrition-tab-pane"
+                      aria-selected="false">
+                      <i class="fa-solid fa-chart-pie"></i>
+                      Nutrition
+                    </button>
+                  </li>
+
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="Chef-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#Chef-tab-pane"
+                      type="button"
+                      role="tab"
+                      aria-controls="Chef-tab-pane"
+                      aria-selected="false">
+                      <i class="fa-solid fa-lightbulb"></i>
+                      Chef's Tips
+                    </button>
+                  </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                  <div
+                    class="tab-pane fade show active"
+                    id="Ingredients-tab-pane"
+                    role="tabpanel"
+                    aria-labelledby="Ingredients-tab"
+                    tabindex="0">
+                    <!-- ingredients -->
+                    <div class="ingredients-box">
+                      <ul id="ingredList"></ul>
+                    </div>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="Instructions-tab-pane"
+                    role="tabpanel"
+                    aria-labelledby="Instructions-tab"
+                    tabindex="0">
+                    <div class="Instructions-box">
+                      <ol id="instrucList"></ol>
+                    </div>
+                  </div>
+
+                  <div
+                    class="tab-pane fade"
+                    id="Nutrition-tab-pane"
+                    role="tabpanel"
+                    aria-labelledby="Nutrition-tab"
+                    tabindex="0">
+                    <div class="Nutrition">
+                      <div class="row gy-4">
+                        <div class="col-lg-6">
+                          <div class="Nutrition_box rounded-4 p-3">
+                            <div class="icon Calories">
+                              <div class="d-flex align-items-center">
+                                <div
+                                  class="box-icon p-3 me-2 d-flex align-items-center justify-content-center rounded-3">
+                                  <i class="fa-solid fa-fire"></i>
+                                </div>
+                                <p class="categ">Calories</p>
+                              </div>
+                            </div>
+                            <p id="NutrCalories" class="variable">520 kcal</p>
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="Nutrition_box rounded-4 p-3">
+                            <div class="icon Calories">
+                              <div class="d-flex align-items-center">
+                                <div
+                                  class="bg-2 box-icon p-3 me-2 d-flex align-items-center justify-content-center rounded-3">
+                                  <i class="fa-solid fa-dumbbell"></i>
+                                </div>
+                                <p class="categ">Protein</p>
+                              </div>
+                            </div>
+                            <p id="NutrProtein" class="variable">36g</p>
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="Nutrition_box rounded-4 p-3">
+                            <div class="icon Calories">
+                              <div class="d-flex align-items-center">
+                                <div
+                                  class="bg-3 box-icon p-3 me-2 d-flex align-items-center justify-content-center rounded-3">
+                                  <i class="fa-brands fa-pagelines"></i>
+                                </div>
+                                <p class="categ">Carbohydrates</p>
+                              </div>
+                            </div>
+                            <p id="NutrCarbohydrates" class="variable">54g</p>
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="Nutrition_box rounded-4 p-3">
+                            <div class="icon Calories">
+                              <div class="d-flex align-items-center">
+                                <div
+                                  class="bg-4 box-icon p-3 me-2 d-flex align-items-center justify-content-center rounded-3">
+                                  <i class="fa-solid fa-droplet"></i>
+                                </div>
+                                <p class="categ">Fat</p>
+                              </div>
+                            </div>
+                            <p id="NutrFat" class="variable">18g</p>
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="Nutrition_box rounded-4 p-3">
+                            <div class="icon Calories">
+                              <div class="d-flex align-items-center">
+                                <div
+                                  class="bg-5 box-icon p-3 me-2 d-flex align-items-center justify-content-center rounded-3">
+                                  <i class="fa-solid fa-seedling"></i>
+                                </div>
+                                <p class="categ">Fiber</p>
+                              </div>
+                            </div>
+                            <p id="NutrFiber" class="variable">3g</p>
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="Nutrition_box rounded-4 p-3">
+                            <div class="icon Calories">
+                              <div class="d-flex align-items-center">
+                                <div
+                                  class="bg-6 box-icon p-3 me-2 d-flex align-items-center justify-content-center rounded-3">
+                                  <i class="fa-solid fa-cube"></i>
+                                </div>
+                                <p class="categ">Sodium</p>
+                              </div>
+                            </div>
+                            <p id="NutrSodium" class="variable">620mg</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="tab-pane fade"
+                    id="Chef-tab-pane"
+                    role="tabpanel"
+                    aria-labelledby="Chef-tab"
+                    tabindex="0">
+                    <div class="ChefTips">
+                      <div class="ChefTips-box">
+                        <div class="d-flex align-items-center">
+                          <ul id="chefTipsList" class="chef-tips-list"></ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End nav-tabs -->
+              </div>
+              <button
+                onclick="test4()"
+                id="btn"
+                class="btn px-4 py-3 rounded-3">
+                <i class="fa-solid fa-rotate"></i>
+                Try Another Recipe
+              </button>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </header>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
+    <script src="./js/content.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
